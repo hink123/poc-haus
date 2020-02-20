@@ -6,7 +6,7 @@ export default function LandingPage(props){
     return (
         <div>
         <div id='landing'>
-            <h1>P.O.C.Haus</h1>
+            <h1 id="title">P.O.C.Haus</h1>
             <p>Explore, Shop, and Support POC-owned businesses in LA</p>
             <div className='nav-arrow'/>
         </div>

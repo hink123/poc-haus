@@ -1,0 +1,14 @@
+img {
+    max-height: 28vh;
+    max-width: 23vw;
+}
+
+/* .deal-description {
+    max-width: 23vw;
+} */
+
+#homepage-deal {
+    max-width: 23vw;
+    align-items: center;
+    margin: 0 auto;
+}

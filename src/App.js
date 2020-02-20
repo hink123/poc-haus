@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import ExampleComponent from './components/ExampleComponent';
+import LandingPage from './components/LandingPage';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
@@ -11,7 +11,7 @@ function App() {
 		<div className="App">
 			<NavBar navItems={['home', 'about', 'signin']} />
 			<Switch>
-				<Route exact path="/" component={ExampleComponent} />
+				<Route exact path="/" component={LandingPage} />
 				<Route exact path="/about" render={() => {
 					return (
 						<div>

@@ -1,0 +1,19 @@
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+}
+
+.navItem {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+.navItem:hover {
+    color: lightblue;
+}

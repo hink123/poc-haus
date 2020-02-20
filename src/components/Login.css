@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.container input {
+    margin: 5px;
+    height: 35px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 1px solid #bbb;
+}
+
+.action-btn {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 33px;
+}

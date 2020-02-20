@@ -17,7 +17,7 @@
 .nav-item {
     text-decoration: none;
     text-transform: capitalize;
-    color: black;
+    color: #000;
     padding: 10px 15px;
     font-family: "open sans";
     font-weight: 100;
@@ -25,7 +25,7 @@
 }
 
 .nav-item:hover {
-    color: lightblue;
+    color: #B53CBA;
 }
 
 @media (max-width: 900px){
@@ -46,7 +46,7 @@
         position: fixed;
         top: 0;
         font-size: 28px;
-        background-color: #000;
+        background-color: #B53CBA;
         padding-top: 75px;
         text-align: left;
         height: 100vh;
@@ -69,6 +69,10 @@
         font-size: 24px;
         display: flex;
         margin-left: 10px;
+    }
+
+    .nav-item:hover {
+        color: #000;
     }
 
     .nav-btn {

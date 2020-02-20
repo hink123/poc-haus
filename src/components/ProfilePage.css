@@ -28,6 +28,10 @@
     width: auto;
 }
 
+.product-list {
+    display: flex;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

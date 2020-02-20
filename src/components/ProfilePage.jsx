@@ -30,7 +30,15 @@ export default function ProfilePage(props) {
                 </div>
             </div>
             <div>
-                <Product />
+                <h2>Products</h2>
+                <div className="product-list">
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                </div>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import './SignIn.css';
+import { Link } from 'react-router-dom';
 
 export default function SignUp(props){
     return (
@@ -21,6 +22,13 @@ export default function SignUp(props){
                 type='button'
                 value='Sign Up'
             />
+            <Link 
+                className="SignIn"
+                to='/signin'
+                key='signin'
+            >
+                Sign In
+            </Link>
         </div>
     );
 }

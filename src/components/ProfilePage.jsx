@@ -17,7 +17,10 @@ export default function ProfilePage(props) {
                         </div>
                     </div>
                     <div className="detail-right">
-
+                        <a href="" className="company-link">Visit Company Site</a>
+                        <div>
+                            <img src="https://img.icons8.com/material-sharp/24/000000/like.png" alt="heart"></img>
+                        </div>
                     </div>
                 </div>
             </div>

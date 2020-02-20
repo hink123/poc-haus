@@ -2,8 +2,28 @@ html {
     scroll-behavior: smooth;
 }
 
-.container {
+/* .container {
     flex: 1;
     justify-content: center;
     align-items: center;
-}
+} */
+
+.nav-arrow {
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  #landing, #about {
+      height: 100vh;
+      margin: 0 auto;
+  }
+
+  #about p{
+    max-width: 300px;
+    flex: 1;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

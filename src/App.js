@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+import ProfilePage from './components/ProfilePage';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				}} />
 				<Route exact path="/signin" component={SignIn} />
         		<Route exact path="/signup" component={SignUp} />
+        		<Route exact path="/business" component={ProfilePage} />
 			</Switch>
 		</div>
 	);

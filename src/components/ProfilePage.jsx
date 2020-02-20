@@ -11,6 +11,10 @@ export default function ProfilePage(props) {
                         <h1>COMPANY NAME</h1>
                         <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="istagram"></img>
                         <img src="https://img.icons8.com/color/48/000000/twitter-squared.png" alt="twitter"></img>
+                        <h3>About Company</h3>
+                        <div>
+                            COMPANY ABOUT  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid repellendus pariatur minima optio necessitatibus distinctio dolores nemo. Laboriosam, blanditiis possimus odio deleniti quae dolores tenetur fugiat quidem quibusdam id!
+                        </div>
                     </div>
                     <div className="detail-right">
 

@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+// Remove Below
 import ProfilePage from './components/ProfilePage';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 				}} />
 				<Route exact path="/signin" component={SignIn} />
         		<Route exact path="/signup" component={SignUp} />
+				{/* Remove */}
         		<Route exact path="/business" component={ProfilePage} />
 			</Switch>
 		</div>

@@ -26,7 +26,7 @@ export default function NavBar(props) {
                     {
                         props.navItems.map((item) => {
                             return (
-                                <div onClick={toggleMenu}>
+                                <div onClick={toggleMenu} key={NavItems.default[item].key}>
                                     <Link
                                         className="nav-item"
                                         to={NavItems.default[item].path}

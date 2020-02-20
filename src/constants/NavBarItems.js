@@ -11,7 +11,12 @@ export default {
         },
         signin: {
             title: "Sign In",
-            path: "/sign",
+            path: "/signin",
             key: "signin"
-        }  
+        },
+        signup: {
+            title: "Sign Up",
+            path: "/signup",
+            key: "signup"
+        } 
 };

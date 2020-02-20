@@ -9,12 +9,13 @@ html {
 } */
 
 .nav-arrow {
+    background-image: url('../images/down-arrow.png');
     width: 50px;
     position: absolute;
     bottom: 10px;
   }
 
-  #landing, #about {
+  #landing, #about, #deals {
       height: 100vh;
       margin: 0 auto;
   }

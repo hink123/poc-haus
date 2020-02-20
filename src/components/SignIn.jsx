@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './SignIn.css';
 
-export default function Login(props){
+export default function SignIn(props){
     return (
         <div className='container'>
             <input 
@@ -15,8 +17,15 @@ export default function Login(props){
             <input
                 className='action-btn'
                 type='button'
-                value='Sign In/Sign Up'
+                value='Sign In'
             />
+            <Link 
+                className="SignUp"
+                to='/signup'
+                key='signup'
+            >
+                Sign Up
+            </Link>
         </div>
     );
 }

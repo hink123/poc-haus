@@ -1,19 +1,82 @@
-.navBar {
+.line-dark {
+    visibility: hidden;
+}
+
+.nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100vw;
     height: 40px;
-    background-color: black;
+    background-color: transparent;
 }
 
-.navItem {
+.nav-item {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
-.navItem:hover {
+.nav-item:hover {
     color: lightblue;
+}
+
+@media (max-width: 900px){
+    .line-dark {
+        margin: 5px 10px;
+        border-bottom: 3px solid #000;
+        visibility: visible;
+    }
+    
+    .line-light {
+        margin: 5px 10px;
+        border-bottom: 3px solid #fff;
+        visibility: visible;
+    }
+
+    .nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        font-size: 28px;
+        background-color: #000;
+        padding-top: 50px;
+        text-align: left;
+        height: 100vh;
+        width: 100vw;
+        max-width: 230px;
+        transition: 0.7s;
+    }
+    .open {
+        left: 0px;
+        opacity: 1;
+        transition: 0.7s;
+    }
+    .closed {
+        left: -100vw;
+        opacity: 0;
+        transition: 0.7s;
+    }
+    .nav-item {
+        color: white;
+        font-size: 18px;
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .nav-btn {
+        position: fixed;
+        width: 40px;
+        height: 35px;
+        top: 10px;
+        left: 10px;
+        border: 0px solid transparent;
+        border-radius: 3px;
+        padding-top: 5px;
+    }
+
+    .nav-btn:hover {
+        background-color: #555;
+    }
 }

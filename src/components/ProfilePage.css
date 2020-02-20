@@ -1,7 +1,10 @@
 .company-details {
     display: flex;
     justify-content: center;
+}
 
+.company {
+    width: auto;
 }
 
 .detail-left {
@@ -21,12 +24,30 @@
     margin-right: 10px;
 }
 
+.header-image {
+    width: auto;
+}
+
+.product-list {
+    display: flex;
+    width: 800px;
+    overflow: scroll;
+    margin: auto;
+}
+
 @media (max-width: 900px) {
+    .company {
+        width: auto;
+    }
     .company-details {
         flex-direction: column;
+        text-align: center;
     }
     .detail-left {
         text-align: center;
         width: auto;
+    }
+    .product-list {
+        width: 400px;
     }
 }

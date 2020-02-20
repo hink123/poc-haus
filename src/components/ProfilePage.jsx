@@ -1,10 +1,11 @@
 import React from 'react';
+import Product from './Product';
 import './ProfilePage.css';
 
 export default function ProfilePage(props) {
     return (
         <div className="container">
-            <div className="header-image">IMAGE</div>
+            <div className="header-image"><img src="https://picsum.photos/800/300" alt="banner"/></div>
             <div className="company">
                 <div className="company-details">
                     <div className="detail-left">
@@ -26,6 +27,17 @@ export default function ProfilePage(props) {
                         </h3>
                         <div><img src="https://picsum.photos/200" alt="stock"/></div>
                     </div>
+                </div>
+            </div>
+            <div>
+                <h2>Products</h2>
+                <div className="product-list">
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
                 </div>
             </div>
         </div>

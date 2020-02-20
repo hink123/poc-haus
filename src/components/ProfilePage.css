@@ -1,0 +1,32 @@
+.company-details {
+    display: flex;
+    justify-content: center;
+
+}
+
+.detail-left {
+    width: 35%;
+    text-align: left;
+}
+
+.company-name {
+    display: block
+}
+
+.company-link {
+    color: black;
+    text-decoration: none;
+}
+.btn-fav {
+    margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+    .company-details {
+        flex-direction: column;
+    }
+    .detail-left {
+        text-align: center;
+        width: auto;
+    }
+}

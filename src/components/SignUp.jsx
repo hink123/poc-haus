@@ -1,7 +1,7 @@
 import React from 'react';
 import './SignIn.css';
 
-export default function Login(props){
+export default function SignUp(props){
     return (
         <div className='container'>
             <input 
@@ -19,7 +19,7 @@ export default function Login(props){
             <input
                 className='action-btn'
                 type='button'
-                value='Sign In/Sign Up'
+                value='Sign Up'
             />
         </div>
     );

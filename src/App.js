@@ -9,7 +9,7 @@ import SignUp from './components/SignUp';
 function App() {
 	return (
 		<div className="App">
-			<NavBar navItems={['home', 'about', 'signin', 'signup']} />
+			<NavBar navItems={['home', 'about', 'signin']} />
 			<Switch>
 				<Route exact path="/" component={ExampleComponent} />
 				<Route exact path="/about" render={() => {
@@ -20,7 +20,7 @@ function App() {
 					)
 				}} />
 				<Route exact path="/signin" component={SignIn} />
-        <Route exact path="/signup" component={SignUp} />
+        		<Route exact path="/signup" component={SignUp} />
 			</Switch>
 		</div>
 	);

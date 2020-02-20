@@ -10,7 +10,7 @@ export default {
             key: "about",
         },
         signin: {
-            title: "Sign In",
+            title: "Sign In | Sign Up",
             path: "/signin",
             key: "signin"
         },

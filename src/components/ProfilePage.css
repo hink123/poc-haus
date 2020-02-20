@@ -30,6 +30,9 @@
 
 .product-list {
     display: flex;
+    width: 800px;
+    overflow: scroll;
+    margin: auto;
 }
 
 @media (max-width: 900px) {
@@ -43,5 +46,8 @@
     .detail-left {
         text-align: center;
         width: auto;
+    }
+    .product-list {
+        width: 400px;
     }
 }

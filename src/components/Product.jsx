@@ -8,6 +8,7 @@ export default function Product(props) {
             <h3>Product Details</h3>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
             <div><span class="og-price">$100</span>  <em>$50</em></div>
+            <button>Redeem Code</button>
         </div>
     )
 }

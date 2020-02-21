@@ -1,10 +1,17 @@
-const userCtrl = require('../models/user');
+const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 
 const SECRET = process.env.SECRET;
 
 module.exports = {
     sign,
+    getOne,
+}
+
+function getOne(req, res){
+    User.findOne({_id: req.params.id}, (user) => {
+        res.json({user});
+    });
 }
 
 function sign(req, res){
@@ -17,7 +24,7 @@ function sign(req, res){
 
 async function signup(req, res){
     console.log('sign up');
-    let user = new userCtrl(req.body);
+    let user = new User(req.body);
     try {
         await user.save();
         const token = createJWT(user);
@@ -30,7 +37,7 @@ async function signup(req, res){
 async function signin(req, res){
     console.log('sign in');
     try {
-        const user = await userCtrl.findOne({ email: req.body.email });
+        const user = await User.findOne({ email: req.body.email });
         if (!user) res.status(401).json({err: 'Bad Credentials'});
         user.comparePassword(req.body.password, (err, isMatch) => {
             if (err) res.status(401).json({err});

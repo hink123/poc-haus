@@ -7,7 +7,7 @@ const businessSchema = new mongoose.Schema(
     name: String,
     adminId: {
         type: mongoose.Types.ObjectId,
-        ref: User
+        ref: 'User'
     },
     description: String,
     website: String,
@@ -18,4 +18,4 @@ const businessSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Business", businessSchema);
+module.exports = mongoose.model('Business', businessSchema);

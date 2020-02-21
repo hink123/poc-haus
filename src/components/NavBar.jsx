@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import * as NavItems from '../constants/NavBarItems';
+import Logo from '../components/Logo';
 
 export default function NavBar(props) {
 
@@ -21,7 +22,8 @@ export default function NavBar(props) {
 
     if (props.navItems) {
         return (
-            <div>
+            <div className="nav-container">
+                <Logo />
                 <div className="nav closed">
                     {
                         props.navItems.map((item) => {

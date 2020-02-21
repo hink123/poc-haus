@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Monoton&display=swap');
+
+.nav-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+}
 
 .line-dark {
     visibility: hidden;
 }
 
 .nav {
+    position: fixed;
+    top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -30,6 +39,15 @@
 }
 
 @media (max-width: 900px){
+
+    .nav-container {
+        left: 50px;
+    }
+
+    #logo {
+        left: 20px;
+    }
+
     .line-dark {
         margin: 5px 10px;
         border-bottom: 3px solid #000;
@@ -46,6 +64,7 @@
         display: block;
         position: fixed;
         top: 0;
+        margin: 0 auto;
         font-size: 28px;
         background-color: #B53CBA;
         padding-top: 75px;
@@ -80,7 +99,7 @@
         position: fixed;
         width: 40px;
         height: 35px;
-        top: 10px;
+        top: 5px;
         left: 10px;
         border: 0px solid transparent;
         border-radius: 3px;

@@ -6,7 +6,6 @@ import Deal from './Deal'
 export default function HomePageDeals(props){
     return (
         <div>
-            
             <Deal/>
         </div>
     )

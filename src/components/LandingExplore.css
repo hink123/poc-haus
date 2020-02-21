@@ -1,0 +1,38 @@
+#landing, #about, #deals {
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+}
+
+#deals {
+    background-image: url(../images/Landing_Img3.jpg);
+    background-size: cover;
+}
+
+#deals p{
+    margin: 0 auto;
+    background-color: rgba(254, 181, 36, 0.9);
+    border-radius: 5px;
+    color: #FFFFFF;
+    max-width: 400px;
+    font-style: 'Open Sans';
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 100px;
+    }
+
+#deals h1 {
+    font-style: 'Open Sans';
+    font-size: 36px;
+    background-color: rgba(254, 181, 36, 0.9);
+    border-radius: 5px;
+    color: #FFFFFF;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+
+  #homepage-deals {
+    background-color: rgba(254, 181, 36, 0.9);
+  }

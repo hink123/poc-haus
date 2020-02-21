@@ -1,0 +1,14 @@
+#landing, #about, #deals {
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+}
+
+#about p{
+    margin: 0 auto;
+  }
+
+  #about {
+    background-image: url(../images/Landing_Img2.jpg);
+    background-size: cover;
+}

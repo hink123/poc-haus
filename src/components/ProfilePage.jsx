@@ -1,5 +1,4 @@
 import React from 'react';
-import Product from './Product';
 import Review from './Review';
 import './ProfilePage.css';
 
@@ -51,7 +50,8 @@ export default function ProfilePage(props) {
             </div>
             <div>
                 <div>Deals</div>
-                <div className="product-list">
+                <div className="">
+
                 </div>
             </div>
             <div>

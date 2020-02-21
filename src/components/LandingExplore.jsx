@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingExplore.css";
-import HomePageDeals from "./HomePageDeals";
+import products from '../constants/products';
+import HProductScrollList from "./HProductScrollList";
 
 
 export default function LandingExplore(props){
@@ -12,7 +13,7 @@ export default function LandingExplore(props){
             <p>Create an account to access the deals below.</p>
             <div id="homepage-deals">
             <h1>Deals</h1>
-            <HomePageDeals/>
+            <HProductScrollList listItems={products}/>
             </div>
             </div>
         </div>

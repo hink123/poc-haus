@@ -61,5 +61,13 @@ html {
       background-size: cover;
   }
 
- 
+.arrow {
+    position: relative;
+    padding-bottom: 650px;
+}
+
+.arrow2 {
+    position: relative;
+    padding-bottom: 315px;
+}
   

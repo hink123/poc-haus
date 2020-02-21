@@ -65,6 +65,12 @@
     margin-bottom: 20px;
 }
 
+.company-about {
+    font-family: 'Open Sans', ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

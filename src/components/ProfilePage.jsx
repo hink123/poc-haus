@@ -61,10 +61,9 @@ export default function ProfilePage(props) {
                 </div>
             </div>
             <div>
-                <h2>Reviews</h2>
+                <div className="reviews-title">Reviews</div>
                 <div>
                     <Review />
-                    <div>View All</div>
                 </div>
             </div>
         </div>

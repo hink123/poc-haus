@@ -136,6 +136,20 @@
     font-size: 7.5px;
 }
 
+.view-reviews {
+    margin-left: 40px;
+}
+
+.reviews-title {
+    margin-right: 250px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', ;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: #3CE2A6;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

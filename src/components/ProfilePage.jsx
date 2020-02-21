@@ -49,7 +49,7 @@ export default function ProfilePage(props) {
                 </div>
             </div>
             <div>
-                <div>Deals</div>
+                <div className="reviews-title deals">Deals</div>
                 <div className="">
 
                 </div>

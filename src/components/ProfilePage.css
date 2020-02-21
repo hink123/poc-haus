@@ -150,6 +150,10 @@
     text-decoration-color: #3CE2A6;
 }
 
+.deals {
+    margin-right: 270px;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

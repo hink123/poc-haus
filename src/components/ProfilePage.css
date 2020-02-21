@@ -30,7 +30,7 @@
 
 .product-list {
     display: flex;
-    width: 800px;
+    width: 720px;
     overflow: scroll;
     margin: auto;
 }

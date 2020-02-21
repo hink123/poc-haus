@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from './Product';
+import Review from './Review';
 import './ProfilePage.css';
 
 export default function ProfilePage(props) {
@@ -38,6 +39,18 @@ export default function ProfilePage(props) {
                     <Product />
                     <Product />
                     <Product />
+                </div>
+            </div>
+            <div>
+                <h2>View Reviews</h2>
+                <div>
+                    <Review />
+                    <Review />
+                    <Review />
+                    <Review />
+                    <Review />
+                    <Review />
+                    <Review />
                 </div>
             </div>
         </div>

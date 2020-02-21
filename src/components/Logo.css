@@ -5,14 +5,13 @@
     font-size: 32px;
     color: #B53CBA;
     text-align: left;
-    margin: 5px;
+    margin: 5px 10px;
     transition: 0.7s;
 }
 
 @media (max-width: 900px){
     #logo {
-        margin: 5px auto;
-        display: inline-block;
+        display: inline;
         transition: 0.7s;
     }
 }

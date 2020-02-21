@@ -22,7 +22,7 @@ export default function NavBar(props) {
 
     if (props.navItems) {
         return (
-            <div>
+            <div className="nav-container">
                 <Logo />
                 <div className="nav closed">
                     {

@@ -6,6 +6,7 @@ import img from "../images/down-arrow.png"
 export default function LandingPage(props){
     return (
         <div>
+
         <div id="landing">
             <h1 id="title">P.O.C.Haus</h1>
             <p>Explore, Shop, and Support POC-owned businesses in LA</p>

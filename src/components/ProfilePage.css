@@ -24,9 +24,24 @@
     margin-right: 10px;
 }
 
+.header-container {
+    position: relative;
+}
+
 .header-image {
     margin: auto;
+    border-radius: 30px;
 }
+.company-name {
+    position: absolute;
+    font-size: 25px;
+    top: 535px;
+    left: 20px;
+    color: white;
+    font-family:;
+}
+
+
 
 .product-list {
     display: flex;
@@ -55,5 +70,8 @@
     }
     .product-list {
         width: 400px;
+    }
+    .header-image {
+        width: 375px;
     }
 }

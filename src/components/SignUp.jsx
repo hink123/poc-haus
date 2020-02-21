@@ -32,18 +32,22 @@ export default function SignUp(props){
     }
 
     return (
+        <div className='outer-container'>
         <div className='container'>
-            <input 
+            <input
+                className="text-input"
                 type='text'
                 placeholder='Full Name'
                 onChange={(e) => setFullName(e.target.value)}
             />
-            <input 
+            <input
+                className="text-input"
                 type='email'
                 placeholder='Email Address'
                 onChange={(e) => setEmail(e.target.value)}
             />
             <input 
+                className='text-input'
                 type='password'
                 placeholder='Password'
                 onChange={(e) => setPassword(e.target.value)}
@@ -61,6 +65,7 @@ export default function SignUp(props){
             >
                 Sign In
             </Link>
+        </div>
         </div>
     );
 }

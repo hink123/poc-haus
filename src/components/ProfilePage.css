@@ -25,12 +25,12 @@
 }
 
 .header-image {
-    width: auto;
+    margin: auto;
 }
 
 .product-list {
     display: flex;
-    width: 720px;
+    width: 700px;
     overflow: scroll;
     margin: auto;
 }

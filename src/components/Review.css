@@ -6,3 +6,8 @@
     display: inline;
     margin-left: 10px;
 }
+
+.review {
+    width: 800px;
+    margin: auto;
+}

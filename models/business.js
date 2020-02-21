@@ -13,7 +13,6 @@ const businessSchema = new mongoose.Schema(
     website: String,
     hasStorefront: Boolean,
     imageUrl: String
-
   },
   {
     timestamps: true

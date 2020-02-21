@@ -33,9 +33,24 @@ export default function ProfilePage(props) {
                     </div>
                 </div>
                 <div className="attribute-group"><img src="./checkmark.png" alt="banner" className="check"/><span className='comp-attribute'>Woman-Owned Business</span> <img src="./checkmark.png" alt="banner" className="check"/><span className='comp-attribute'>Sustainably Made</span></div>
+                <div className="company-details">
+                    <div className="detail-left">
+                        <div className="company-about">About the Owner</div>
+                        <div className="about-info">
+                            Shana Jackson grew up in LA and went to FIDM to pursu...
+                        </div>
+                        <div className="read-more">
+                            Read More
+                        </div>
+                    </div>
+                    <div className="detail-right">
+                       <img src="./owner.png" alt="owner" className="owner-img"/>
+                       <div className="owner-name">Owner Shana Jackson</div>
+                    </div>
+                </div>
             </div>
             <div>
-                <h2>Products</h2>
+                <div>Deals</div>
                 <div className="product-list">
                     <Product />
                     <Product />
@@ -47,14 +62,9 @@ export default function ProfilePage(props) {
             </div>
             <div>
                 <h2>Reviews</h2>
-                <div className="review-list">
+                <div>
                     <Review />
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
+                    <div>View All</div>
                 </div>
             </div>
         </div>

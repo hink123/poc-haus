@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Monoton&display=swap');
+
+#logo{
+
+}
 
 .line-dark {
     visibility: hidden;
 }
 
 .nav {
+    position: fixed;
+    top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -30,6 +36,10 @@
 }
 
 @media (max-width: 900px){
+    #logo {
+        left: 20px;
+    }
+
     .line-dark {
         margin: 5px 10px;
         border-bottom: 3px solid #000;

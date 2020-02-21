@@ -7,9 +7,11 @@ export default function LandingPage(props){
     return (
         <div>
         <div id='landing'>
-            <h1 id="title">P.O.C.Haus</h1>
-            <p>Explore, Shop, and Support POC-owned businesses in LA</p>
-            <a href="#about" ><img src={img} className='nav-arrow'/></a>
+            <div id='inner-container'>
+                {/* <h1 id="title">P.O.C.Haus</h1> */}
+                <p>Explore, Shop, and Support POC-owned businesses in LA</p>
+                <a href="#about" ><img src={img} className='nav-arrow'/></a>
+            </div>
         </div>
         <div id='about'>
             <h1>About</h1>

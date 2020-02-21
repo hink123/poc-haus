@@ -5,7 +5,7 @@ const SECRET = process.env.SECRET;
 
 module.exports = {
     sign,
-    getOne,
+    getOne
 }
 
 function getOne(req, res){

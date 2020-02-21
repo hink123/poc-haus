@@ -11,7 +11,8 @@ const userSchema = new Schema({
         unique: true,
         lowercase: true
     },
-    password: String
+    password: String,
+    favorites: Array
 }, {
     timestamps: true
 });

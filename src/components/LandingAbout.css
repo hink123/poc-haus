@@ -10,7 +10,7 @@
   border-radius: 5px;
   color: #FFFFFF;
   max-width: 400px;
-  font: 'Open Sans';
+  font-family: 'Open Sans';
   font-size: 19px;
   line-height: 30px;
   }
@@ -21,7 +21,7 @@
 }
 
 #about h1 {
-  font: 'Open Sans';
+  font-family: 'Open Sans';
   font-weight: lighter;
   font-size: 64px;
   background-color: rgba(4, 219, 140, 0.9);
@@ -29,6 +29,9 @@
   color: #FFFFFF;
   max-width: 300px;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
+.inner-container {
+  padding-top: 100px;
+}

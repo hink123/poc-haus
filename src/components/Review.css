@@ -11,3 +11,9 @@
     width: 800px;
     margin: auto;
 }
+
+@media (max-width: 900px) {
+    .review {
+        width: 400px;
+    }
+}

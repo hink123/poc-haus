@@ -6,7 +6,10 @@ import './ProfilePage.css';
 export default function ProfilePage(props) {
     return (
         <div className="container">
-            <div className="header-image"><img src="https://picsum.photos/800/300" alt="banner"/></div>
+            <div className="header-container">
+                <img src="./header-photo.png" alt="banner" className="header-image"/>
+                <div className="company-name">Tribec</div>
+            </div>
             <div className="company">
                 <div className="company-details">
                     <div className="detail-left">

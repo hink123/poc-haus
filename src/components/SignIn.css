@@ -1,40 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap');
 
+.outer-container {
+    background-image: url('../images/signin-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 0px;
+    height: 100vh;
+}
+
 .container {
     display: flex;
+    height: 100vh;
+    max-width: 250px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 100px;
+    margin: 0px auto;
+
 }
 
 .container input {
-    margin: 5px;
     height: 35px;
-    width: 250px;
-    border: 0px;
-    border-bottom: 1px solid #bbb;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 33px;
+}
+
+.text-input {
+    width: 240px;
 }
 
 .action-btn, .second-action-btn {
     font-family: 'open sans';
     font-weight: bold;
+    border-radius: 7px;
+    margin: 0px auto;
+    height: 33px;
+    border: 2px solid #B53CBA;
 }
 
 .action-btn {
     background-color: #B53CBA;
     color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    height: 33px;
-    width: 250px;
+    width: 102%;
 }
 
 .second-action-btn {
     background-color: transparent;
     color: #B53CBA;
-    border: 1px solid #B53CBA;
-    border-radius: 5px;
-    height: 33px;
-    width: 250px;
-    line-height: 1.75;
+    line-height: 1.85;
     text-decoration: none;
+    width: 250px;
+}
+
+.action-btn:hover {
+    background-color: white;
+    color: #B53CBA;
+    border-color: white;
+}
+
+.second-action-btn:hover {
+    border-color: white;
+    color: white;
 }

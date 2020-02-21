@@ -70,5 +70,5 @@ export default [
         website: "",
         hasStorefront: "",
         imageUrl: "https://i.imgur.com/cxDzNTY.jpg"
-    },
+    }
 ]

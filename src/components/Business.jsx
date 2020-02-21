@@ -5,7 +5,7 @@ export default function Business(props){
     return (
         <div>
         <div className='biz-card'>
-            <img src={props.business.imageUrl}className='deal-img' alt="random pic" />
+            <div className="business-image" style={{backgroundImage: `url(${props.business.imageUrl})`}}></div>
             <h3>{props.business.name}</h3>
         </div>
         </div>

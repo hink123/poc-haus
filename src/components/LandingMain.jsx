@@ -8,7 +8,7 @@ export default function LandingMain(props){
         <div id="landing">
             <div className="inner-container">
             <p>Explore, Shop, and Support POC-owned businesses in LA</p>
-            <a href="#about" ><img src={img} alt="dow arrow"  className="nav-arrow"/></a>
+            <a href="#deals" ><img src={img} alt="dow arrow"  className="nav-arrow"/></a>
             </div>
         </div>
         </div>

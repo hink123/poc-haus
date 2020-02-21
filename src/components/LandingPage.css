@@ -2,15 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-/* .container {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-} */
-
 .nav-arrow {
-    background-image: url('../images/down-arrow.png');
-    width: 50px;
+    width: 40px;
     position: absolute;
     bottom: 10px;
   }
@@ -18,13 +11,16 @@ html {
   #landing, #about, #deals {
       height: 100vh;
       margin: 0 auto;
+      align-content: center;
   }
 
   #about p{
-    max-width: 300px;
-    flex: 1;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    max-width: 50vw;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 200px;
+  }
+
+  #title {
+      font-size: 8vw;
   }

@@ -42,8 +42,8 @@ export default function ProfilePage(props) {
                 </div>
             </div>
             <div>
-                <h2>View Reviews</h2>
-                <div>
+                <h2>Reviews</h2>
+                <div className="review-list">
                     <Review />
                     <Review />
                     <Review />

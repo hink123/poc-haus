@@ -35,6 +35,12 @@
     margin: auto;
 }
 
+.review-list {
+    height: 200px; 
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

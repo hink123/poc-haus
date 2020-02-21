@@ -24,3 +24,19 @@ html {
   #title {
       font-size: 8vw;
   }
+
+  #landing {
+      background-image: url(../images/Landing_Img1.jpg);
+      background-size: cover;
+      /* background-position: center; */
+  }
+
+  #about {
+      background-image: url(../images/Landing_Img2.jpg);
+      background-size: cover;
+  }
+
+  #deals {
+      background-image: url(../images/Landing_Img3.jpg);
+      background-size: cover;
+  }

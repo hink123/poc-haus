@@ -3,3 +3,10 @@
     align-items: center;
     margin: 0 auto;
 }
+
+.deal-img {
+    max-height: 28vh;
+    max-width: 23vw;
+    border-radius: 5px;
+  }
+

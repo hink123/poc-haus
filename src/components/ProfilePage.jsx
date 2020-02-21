@@ -5,36 +5,52 @@ import './ProfilePage.css';
 
 export default function ProfilePage(props) {
     return (
-        <div className="container">
+        <div className="total-container">
             <div className="header-container">
                 <img src="./header-photo.png" alt="banner" className="header-image"/>
+                <img src="./heart.png" alt="banner" className="heart-image"/>
                 <div className="company-name">Tribec</div>
             </div>
             <div className="company">
                 <div className="company-details">
                     <div className="detail-left">
-                        <h2>COMPANY NAME</h2>
-                        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="istagram"></img>
-                        <img src="https://img.icons8.com/color/48/000000/twitter-squared.png" alt="twitter"></img>
-                        <h3>About Company</h3>
-                        <div>
-                            COMPANY ABOUT  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquid repellendus pariatur minima optio necessitatibus distinctio dolores nemo. Laboriosam, blanditiis possimus odio deleniti quae dolores tenetur fugiat quidem quibusdam id!
+                        <div className="company-about">About the Brand</div>
+                        <div className="about-info">
+                            Tribec was founded for women who want to express their individual style and vo..
+                        </div>
+                        <div className="read-more">
+                            Read More
                         </div>
                     </div>
                     <div className="detail-right">
-                        <h2>
-                            <a href="" className="company-link">Visit Company Site</a>
-                        </h2>
-                        <h3>
-                            <button className="btn-fav">&#10084;</button>
-                            Add to Favorites
-                        </h3>
-                        <div><img src="https://picsum.photos/200" alt="stock"/></div>
+                        <div>
+                            <a href="" className="company-about link-site">Visit Tribec Website</a>
+                        </div>
+                        <div>
+                            <img src="./twitter.png" alt="banner" className="twitter"/>
+                            <img src="./instagram.png" alt="banner" className="instagram"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="attribute-group"><img src="./checkmark.png" alt="banner" className="check"/><span className='comp-attribute'>Woman-Owned Business</span> <img src="./checkmark.png" alt="banner" className="check"/><span className='comp-attribute'>Sustainably Made</span></div>
+                <div className="company-details">
+                    <div className="detail-left">
+                        <div className="company-about">About the Owner</div>
+                        <div className="about-info">
+                            Shana Jackson grew up in LA and went to FIDM to pursu...
+                        </div>
+                        <div className="read-more">
+                            Read More
+                        </div>
+                    </div>
+                    <div className="detail-right">
+                       <img src="./owner.png" alt="owner" className="owner-img"/>
+                       <div className="owner-name">Owner Shana Jackson</div>
                     </div>
                 </div>
             </div>
             <div>
-                <h2>Products</h2>
+                <div>Deals</div>
                 <div className="product-list">
                     <Product />
                     <Product />
@@ -45,14 +61,8 @@ export default function ProfilePage(props) {
                 </div>
             </div>
             <div>
-                <h2>Reviews</h2>
-                <div className="review-list">
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
-                    <Review />
+                <div className="reviews-title">Reviews</div>
+                <div>
                     <Review />
                 </div>
             </div>

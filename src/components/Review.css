@@ -1,23 +1,26 @@
 .review-name {
     display: inline;
+    font-family: 'Open Sans', ;
+    font-weight: bold;
 }
 
 .review-date {
     display: inline;
     margin-left: 10px;
+    font-family: 'Open Sans', ;
+    font-size: 12px;
 }
 
 .review {
-    width: 800px;
+    width: 350px;
     margin: auto;
     text-align: left;
     margin-bottom: 20px;
-    border-top: 1px solid black;
-    padding-top: 10px;
+    margin-left: 40px;
 }
 
-@media (max-width: 900px) {
-    .review {
-        width: 400px;
-    }
+.review-body {
+    padding-top: 15px;
+    font-family: 'Open Sans', ;
+    font-size: 16px;
 }

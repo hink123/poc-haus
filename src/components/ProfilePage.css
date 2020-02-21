@@ -25,14 +25,20 @@
 }
 
 .header-image {
-    width: auto;
+    margin: auto;
 }
 
 .product-list {
     display: flex;
-    width: 800px;
+    width: 700px;
     overflow: scroll;
     margin: auto;
+}
+
+.review-list {
+    height: 200px; 
+    overflow: scroll;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 900px) {

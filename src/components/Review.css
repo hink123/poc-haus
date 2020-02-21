@@ -1,0 +1,23 @@
+.review-name {
+    display: inline;
+}
+
+.review-date {
+    display: inline;
+    margin-left: 10px;
+}
+
+.review {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .review {
+        width: 400px;
+    }
+}

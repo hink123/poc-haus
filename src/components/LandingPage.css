@@ -10,45 +10,46 @@ html {
 
   #landing, #about, #deals {
       height: 100vh;
-      margin: 0 auto;
+      width: 100vw;
       align-content: center;
-      margin: -30px;
   }
 
-  #about p{
-    max-width: 50vw;
+  /* #about p{
     margin: 0 auto;
-    align-content: center;
-    margin-top: 200px;
-  }
+  } */
 
-  #title {
-      font-size: 8vw;
-  }
 
-  #landing {
-      background-image: url(../images/Landing_Img1.jpg);
-      background-size: cover;
-      /* background-position: center; */
-  }
+  /* #landing  {
+        background-image: url('../images/Landing_Img1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        /* overflow: hidden;
+        margin: 0px;
+        height: 100vh;
+    } */ */
+      
 
-  #inner-container {
-      max-width: 900px;
+  /* #inner-container {
       height: 100vh;
+      width: 100vw;
+      max-width: 50%;
       align-items: center;
       margin: 0 auto;
-  }
+  } */
 
-  #landing p {
+  /* #landing p {
        /* line-height: .7;  */
-       background-color: rgba(249, 78, 255, 0.7);
+       /* background-color: rgba(249, 78, 255, 0.7);
        color: #FFFFFF;
        font-family: 'Open Sans';
        font-size: 24px;
        max-width: 200px;
        position: absolute;
-       
-  }
+       top: 50%;
+       left: 35%
+  } */ */
 
   #about {
       background-image: url(../images/Landing_Img2.jpg);
@@ -59,3 +60,6 @@ html {
       background-image: url(../images/Landing_Img3.jpg);
       background-size: cover;
   }
+
+ 
+  

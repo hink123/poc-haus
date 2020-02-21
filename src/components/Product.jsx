@@ -5,10 +5,10 @@ export default function Product(props) {
     return (
         <div className="product">
             <img src="https://picsum.photos/200" alt="STOCK"/>
-            <h3>Product Details</h3>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-            <div><span class="og-price">$100</span>  <em>$50</em></div>
-            <button>Redeem Code</button>
+            <h3>{props.product.title}</h3>
+            <div>{props.product.description}</div>
+            <div><span class="og-price">{props.products.price}</span>  <em>{props.product.discount}</em></div>
+            <button>{props.product.redeemCode}</button>
         </div>
     )
 }

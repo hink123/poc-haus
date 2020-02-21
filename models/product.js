@@ -9,10 +9,11 @@ const productSchema = new mongoose.Schema(
         type: mongoose.Types.ObjectId,
         ref: 'Business'
     },
-    URL: String,
+    url: String,
     description: String,
-    discount: String,
-    price: Number
+    discount: Number,
+    price: Number,
+    redeemCode: String
   },
   {
     timestamps: true

@@ -1,7 +1,7 @@
 import React from 'react'
 import Product from './Product'
 
-export default function VerticalScrollList(props){
+export default function HProductScrollList(props){
     return (
         <div>
             {

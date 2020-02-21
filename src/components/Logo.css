@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Monoton&display=swap');
+
+#logo {
+    font-family: 'Monoton', Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    color: #B53CBA;
+    text-align: left;
+    margin: 5px 10px;
+    transition: 0.7s;
+}
+
+@media (max-width: 900px){
+    #logo {
+        display: inline;
+        transition: 0.7s;
+    }
+}

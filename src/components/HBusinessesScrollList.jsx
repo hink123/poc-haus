@@ -3,11 +3,13 @@ import Business from './Business'
 
 export default function HBusinessesScrollList(props){
     return (
-        <div>
+        <div className='HScrollView' style={{display: 'flex', width: '100%', overflowX: 'scroll', margin: '30px auto'}}>
             {
                 props.listItems.map((item, idx) => {
                     return (
-                        <Business business={item} key={idx} />
+                        <div className="card" style={{width: 100, height: 300, margin: 100}}>
+                            <Business business={item} key={idx} />
+                        </div>
                     )
                 })
             }

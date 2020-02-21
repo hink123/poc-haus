@@ -32,13 +32,22 @@
     margin: auto;
     border-radius: 30px;
 }
+
+.heart-image {
+    width: 56px;
+    height: 51px;
+    position: absolute;
+    right: 21px;
+    top: 550px;
+}
+
 .company-name {
     position: absolute;
-    font-size: 25px;
+    font-size: 29px;
     top: 535px;
     left: 20px;
     color: white;
-    font-family:;
+    font-family: 'Open Sans', ;
 }
 
 

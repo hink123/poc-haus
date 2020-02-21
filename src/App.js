@@ -9,6 +9,7 @@ import Browse from './components/Browse';
 import Deals from './components/Deals';
 import Businesses from './components/Businesses';
 import Favorites from './components/Favorites'
+import ProfilePage from './components/ProfilePage';
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 				<Route exact path="/account" component={LandingPage} />
 				<Route exact path="/signin" component={SignIn} />
         		<Route exact path="/signup" component={SignUp} />
+        		<Route exact path="/business" component={ProfilePage} />
 			</Switch>
 		</div>
 	);

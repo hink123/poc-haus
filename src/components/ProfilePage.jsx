@@ -8,12 +8,12 @@ export default function ProfilePage(props) {
         <div className="container">
             <div className="header-container">
                 <img src="./header-photo.png" alt="banner" className="header-image"/>
+                <img src="./heart.png" alt="banner" className="heart-image"/>
                 <div className="company-name">Tribec</div>
             </div>
             <div className="company">
                 <div className="company-details">
                     <div className="detail-left">
-                        <h2>COMPANY NAME</h2>
                         <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="istagram"></img>
                         <img src="https://img.icons8.com/color/48/000000/twitter-squared.png" alt="twitter"></img>
                         <h3>About Company</h3>

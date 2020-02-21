@@ -5,11 +5,12 @@ const SECRET = process.env.SECRET;
 
 module.exports = {
     sign,
-    getOne
+    getOne,
 }
 
 function getOne(req, res){
-    User.findOne({_id: req.params.id}, (user) => {
+    User.findOne({_id: req.params.id}, (err, user) => {
+        if (err) res.status.json({user});
         res.json({user});
     });
 }

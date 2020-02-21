@@ -9,9 +9,9 @@ module.exports = {
 }
 
 function getAll(req, res){
-    Business.find({}, (err, Businesss) => {
+    Business.find({}, (err, Businesses) => {
         if (err) res.status(401).json(err);
-        res.json({Businesss});
+        res.json({Businesses});
     });
 }
 

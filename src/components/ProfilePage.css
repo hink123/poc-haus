@@ -154,6 +154,25 @@
     margin-right: 270px;
 }
 
+.company-scroll {
+    margin-top: 0;
+}
+
+.film {
+    margin-right: 225px;
+}
+
+.end-site {
+    font-family: 'Open Sans', ;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.end-site:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
     .company {
         width: auto;

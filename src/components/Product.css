@@ -1,5 +1,17 @@
-.og-price {
+.pricing{
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    font-size: medium;
+}
+
+.pricing span {
     text-decoration: line-through;
+    float: left;
+}
+
+.pricing em {
+    float: right;    
 }
 
 .product {
@@ -8,10 +20,21 @@
     height: 200px;
 }
 
+#business-name {
+    width: 200px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
 .product-image {
     width: 200px;
     height: 200px;
     border-radius: 7px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+h3 {
+    width: 200px;
+    margin: 10px auto;
 }

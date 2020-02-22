@@ -11,3 +11,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+h3 {
+    width: 200px;
+    margin: 10px auto;
+}

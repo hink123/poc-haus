@@ -7,8 +7,10 @@ export default function Product(props) {
             <div className="product-image" style={{backgroundImage: `url(${props.product.image})`}}></div>
             <h3>{props.product.title}</h3>
             <div>{props.product.description}</div>
-            <div><span class="og-price">{props.product.price}</span>  <em>{props.product.discount}</em></div>
-            <button>Redeem Code</button>
+            <div id='business-name'>{props.product.businessId}</div>
+            <div className="pricing" style={{margin: '10px auto'}}>
+                <span>${props.product.price}</span>  <em>${props.product.discount}</em>
+            </div>
         </div>
     )
 }

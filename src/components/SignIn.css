@@ -37,6 +37,7 @@
 .action-btn, .second-action-btn {
     font-family: 'open sans';
     font-weight: bold;
+    font-size: medium;
     border-radius: 7px;
     margin: 0px auto;
     height: 33px;

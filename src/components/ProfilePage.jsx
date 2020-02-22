@@ -1,5 +1,7 @@
 import React from 'react';
 import Review from './Review';
+import HProductScrollList from '../components/HProductScrollList';
+import products from '../constants/products';
 import './ProfilePage.css';
 
 export default function ProfilePage(props) {
@@ -18,7 +20,7 @@ export default function ProfilePage(props) {
                             Tribec was founded for women who want to express their individual style and vo..
                         </div>
                         <div className="read-more">
-                            Read More
+                            Read More <img src="./down-arrow.png" alt="banner" className=""/>
                         </div>
                     </div>
                     <div className="detail-right">
@@ -39,7 +41,7 @@ export default function ProfilePage(props) {
                             Shana Jackson grew up in LA and went to FIDM to pursu...
                         </div>
                         <div className="read-more">
-                            Read More
+                            Read More <img src="./down-arrow.png" alt="banner" className=""/>
                         </div>
                     </div>
                     <div className="detail-right">
@@ -50,8 +52,8 @@ export default function ProfilePage(props) {
             </div>
             <div>
                 <div className="reviews-title deals">Deals</div>
-                <div className="">
-
+                <div className="company-scroll">
+                    <HProductScrollList listItems={products}/>
                 </div>
             </div>
             <div>
@@ -59,6 +61,11 @@ export default function ProfilePage(props) {
                 <div>
                     <Review />
                 </div>
+            </div>
+            <div>
+                <div className="reviews-title film">Owner Film</div>
+                <img src="./owner-video.png" alt="banner" className=""/>
+                <div className="end-site">Visit Tribec Website</div>
             </div>
         </div>
     )

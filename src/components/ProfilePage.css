@@ -43,15 +43,15 @@
     width: 50px;
     height: 45px;
     position: absolute;
-    right: 21px;
-    top: 550px;
+    right: 25vh;
+    top: 91vh;
 }
 
 .company-name {
     position: absolute;
-    font-size: 29px;
-    top: 535px;
-    left: 20px;
+    font-size: 30px;
+    top: 94vh;
+    left: 30vh;
     color: white;
     font-family: 'Open Sans', ;
 }
@@ -154,7 +154,26 @@
     margin-right: 270px;
 }
 
-@media (max-width: 900px) {
+.company-scroll {
+    margin-top: 0;
+}
+
+.film {
+    margin-right: 225px;
+}
+
+.end-site {
+    font-family: 'Open Sans', ;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.end-site:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
     .company {
         width: auto;
     }
@@ -164,4 +183,179 @@
     .header-image {
         width: 375px;
     }
+    .company-details {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    .company {
+        width: auto;
+    }
+    
+    .detail-left {
+        width: 50%;
+        text-align: left;
+        padding-right: 25px;
+        padding-left: 30px;
+    }
+    
+    .company-name {
+        display: block
+    }
+    
+    .company-link {
+        color: black;
+        text-decoration: none;
+    }
+    .btn-fav {
+        margin-right: 10px;
+    }
+    
+    .header-container {
+        position: relative;
+        z-index: -1;
+    }
+    
+    .header-image {
+        margin: auto;
+        border-radius: 30px;
+    }
+    
+    .heart-image {
+        width: 50px;
+        height: 45px;
+        position: absolute;
+        right: 21px;
+        top: 550px;
+    }
+    
+    .company-name {
+        position: absolute;
+        font-size: 29px;
+        top: 535px;
+        left: 20px;
+        color: white;
+        font-family: 'Open Sans', ;
+    }
+    
+    .product-list {
+        display: flex;
+        width: 700px;
+        overflow: scroll;
+        margin: auto;
+    }
+    
+    .review-list {
+        height: 200px; 
+        overflow: scroll;
+        margin-bottom: 20px;
+    }
+    
+    .company-about {
+        font-family: 'Open Sans', ;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: underline;
+        text-decoration-color: #3CE2A6;
+        padding-bottom: 5px;
+    }
+    
+    .link-site {
+        color: black;
+        display: block;
+    }
+    
+    .about-info {
+        font-family: 'Open Sans', ;
+        font-size: 12px;
+    }
+    
+    .read-more {
+        font-family: 'Open Sans', ;
+        font-size: 10px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    
+    .total-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    
+    .twitter, .instagram {
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+    }
+    
+    .check {
+        height: 10px;
+        padding-right: 3px;
+    }
+    
+    .comp-attribute {
+        font-size: 10px;
+        font-family: 'Open Sans', ;
+        text-decoration: underline;
+        padding-left: 5px;
+        padding-right: 40px;
+    }
+    
+    .attribute-group {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    .owner-img {
+        width: 85px;
+        height: 80px; 
+        border-radius: 3px;
+    }
+    
+    .owner-name {
+        font-family: 'Open Sans', ;
+        font-size: 7.5px;
+    }
+    
+    .view-reviews {
+        margin-left: 40px;
+    }
+    
+    .reviews-title {
+        margin-right: 250px;
+        margin-bottom: 10px;
+        font-family: 'Open Sans', ;
+        font-weight: bold;
+        font-size: 17px;
+        text-decoration: underline;
+        text-decoration-color: #3CE2A6;
+    }
+    
+    .deals {
+        margin-right: 270px;
+    }
+    
+    .company-scroll {
+        margin-top: 0;
+    }
+    
+    .film {
+        margin-right: 225px;
+    }
+    
+    .end-site {
+        font-family: 'Open Sans', ;
+        font-weight: bold;
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    
+    .end-site:hover {
+        cursor: pointer;
+    }
+    
 }

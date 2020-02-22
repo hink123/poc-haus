@@ -1,7 +1,7 @@
 export default [
     {
         businessId: "",
-        name: "Salt Flowe",
+        name: "Tribec",
         description: "",
         website: "",
         hasStorefront: "",

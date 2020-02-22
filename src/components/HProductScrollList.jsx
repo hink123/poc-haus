@@ -3,7 +3,7 @@ import Product from './Product'
 
 export default function HProductScrollList(props) {
     return (
-        <div className='HScrollView' style={{ display: 'flex', width: '80vw', overflowX: 'scroll', margin: '30px auto', backgroundColor: '#3FC8EE', padding: 10, borderRadius: 7}}>
+        <div className='HScrollView' style={{ display: 'flex', width: '100%', overflowX: 'scroll'}}>
             {
                 props.listItems.map((item, idx) => {
                     return (

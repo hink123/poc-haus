@@ -10,8 +10,12 @@ export default function Browse(props){
     return (
         <div style={{paddingTop: 50}}>
             <h1>Browse</h1>
-            <HProductScrollList listItems={products}/>
-            <HBusinessScrollList listItems={businesses} />
+            <div className='products-scrollview'>
+                <HProductScrollList listItems={products}/>
+            </div>
+            <div className='business-scrollview'>
+                <HBusinessScrollList listItems={businesses} />
+            </div>
         </div>
     )
     }

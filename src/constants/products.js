@@ -2,7 +2,7 @@ export default [
     {
         name: "Waterproof Jacket",
         image: "https://i.imgur.com/4ngZI5x.jpg",
-        businessId: "Tribec",
+        businessId: "Salt Flower",
         url: "",
         description: "",
         discount: 80,

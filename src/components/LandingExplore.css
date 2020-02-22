@@ -23,7 +23,8 @@
 
 #deals h1 {
     font-family: 'Open Sans';
-    font-size: 36px;
+    font-weight: lighter;
+    font-size: 64px;
     background-color: rgba(254, 181, 36, 0.9);
     border-radius: 5px;
     color: #FFFFFF;
@@ -32,7 +33,11 @@
     margin-bottom: 50px;
   }
   
-
+#deals h2 {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+}
 
   #homepage-deals {
     background-color: rgba(254, 181, 36, 0.9);

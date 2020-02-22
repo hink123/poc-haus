@@ -1,0 +1,16 @@
+
+.products-scrollview {
+    background-color: #F5C346;
+}
+
+.business-scrollview {
+    background-color: #3FC8EE;
+}
+
+.products-scrollview, .business-scrollview {
+    width: 90%;
+    border-radius: 14px;
+    margin: 30px auto;
+    padding: 10px;
+
+}

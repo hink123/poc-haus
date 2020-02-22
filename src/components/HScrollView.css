@@ -1,0 +1,8 @@
+.HScrollView { 
+    display: 'flex';
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    overflow-x: 'scroll'; 
+    margin: '30px auto';
+}

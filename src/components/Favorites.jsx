@@ -4,7 +4,7 @@ import Deal from './Deal';
 
 export default function Favorites(props){
     return (
-        <div>
+        <div style={{paddingTop: 50}}>
             <h1>Favorites</h1>
             <Deal />
         </div>

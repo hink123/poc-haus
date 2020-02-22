@@ -10,6 +10,7 @@ import Deals from './components/Deals';
 import Businesses from './components/Businesses';
 import Favorites from './components/Favorites'
 import ProfilePage from './components/ProfilePage';
+import About from './components/LandingAbout';
 
 function App() {
 	return (
@@ -21,13 +22,7 @@ function App() {
 				<Route exact path="/deals" component={Deals} />
 				<Route exact path="/businesses" component={Businesses} />
 				<Route exact path="/favorites" component={Favorites} />
-				<Route exact path="/about" render={() => {
-					return (
-						<div>
-							<h1>About</h1>
-						</div>
-					)
-				}} />
+				<Route exact path="/about" component={About}/>
 				<Route exact path="/account" component={LandingPage} />
 				<Route exact path="/signin" component={SignIn} />
         		<Route exact path="/signup" component={SignUp} />

@@ -25,7 +25,7 @@ export default function ProfilePage(props) {
                     </div>
                     <div className="detail-right">
                         <div>
-                            <a href="" className="company-about link-site">Visit Tribec Website</a>
+                            <a href="#" className="company-about link-site">Visit Tribec Website</a>
                         </div>
                         <div>
                             <img src="./twitter.png" alt="banner" className="twitter"/>

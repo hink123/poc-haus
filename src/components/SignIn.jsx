@@ -26,7 +26,7 @@ export default function SignIn(props) {
             .then(res => res.json())
             .then(data => {
                 localStorage.setItem('token', data.token);
-                props.history.push('/about');
+                props.history.push('/');
             })
     }
 
